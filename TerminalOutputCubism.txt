@@ -1,0 +1,199 @@
+artpriority@ap-ml:~/neural-style-docker$ bash ./scripts/fake-it.sh goldengate.jpg cubism.jpg
+tput: No value for $TERM and no -T specified
+[libprotobuf WARNING google/protobuf/io/coded_stream.cc:505] Reading dangerously large protocol message.  If the message turns out to be larger than 1073741824 bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+[libprotobuf WARNING google/protobuf/io/coded_stream.cc:78] The total number of bytes read was 574671192
+Successfully loaded /neural-style/models/VGG_ILSVRC_19_layers.caffemodel
+conv1_1: 64 3 3 3
+conv1_2: 64 64 3 3
+conv2_1: 128 64 3 3
+conv2_2: 128 128 3 3
+conv3_1: 256 128 3 3
+conv3_2: 256 256 3 3
+conv3_3: 256 256 3 3
+conv3_4: 256 256 3 3
+conv4_1: 512 256 3 3
+conv4_2: 512 512 3 3
+conv4_3: 512 512 3 3
+conv4_4: 512 512 3 3
+conv5_1: 512 512 3 3
+conv5_2: 512 512 3 3
+conv5_3: 512 512 3 3
+conv5_4: 512 512 3 3
+fc6: 1 1 25088 4096
+fc7: 1 1 4096 4096
+fc8: 1 1 4096 1000
+Setting up style layer  	2	:	relu1_1	
+Setting up style layer  	7	:	relu2_1	
+Setting up style layer  	12	:	relu3_1	
+Setting up style layer  	21	:	relu4_1	
+Setting up content layer	23	:	relu4_2	
+Setting up style layer  	30	:	relu5_1	
+WARNING: Skipping content loss	
+Running optimization with L-BFGS	
+<optim.lbfgs> 	creating recyclable direction/step/history buffers	
+Iteration 50 / 1000	
+  Content 1 loss: 66199150.000000	
+  Style 1 loss: 666640.640259	
+  Style 2 loss: 6552687.011719	
+  Style 3 loss: 5556109.863281	
+  Style 4 loss: 36861011.718750	
+  Style 5 loss: 44109.758377	
+  Total loss: 115879708.992386	
+Iteration 100 / 1000	
+  Content 1 loss: 73265356.250000	
+  Style 1 loss: 256370.681763	
+  Style 2 loss: 2377621.032715	
+  Style 3 loss: 2418368.591309	
+  Style 4 loss: 14034562.500000	
+  Style 5 loss: 28276.350975	
+  Total loss: 92380555.406761	
+Iteration 150 / 1000	
+  Content 1 loss: 77095943.750000	
+  Style 1 loss: 95790.710449	
+  Style 2 loss: 1239935.394287	
+  Style 3 loss: 1388966.125488	
+  Style 4 loss: 8124290.039062	
+  Style 5 loss: 23492.477417	
+  Total loss: 87968418.496704	
+Iteration 200 / 1000	
+  Content 1 loss: 79376068.750000	
+  Style 1 loss: 46193.349838	
+  Style 2 loss: 796364.044189	
+  Style 3 loss: 868910.247803	
+  Style 4 loss: 5599607.299805	
+  Style 5 loss: 20435.774803	
+  Total loss: 86707579.466438	
+Iteration 250 / 1000	
+  Content 1 loss: 81464162.500000	
+  Style 1 loss: 24182.006836	
+  Style 2 loss: 552011.215210	
+  Style 3 loss: 602451.141357	
+  Style 4 loss: 4135359.741211	
+  Style 5 loss: 18588.621140	
+  Total loss: 86796755.225754	
+Iteration 300 / 1000	
+  Content 1 loss: 82992225.000000	
+  Style 1 loss: 13245.753765	
+  Style 2 loss: 415211.196899	
+  Style 3 loss: 446015.808105	
+  Style 4 loss: 3238234.497070	
+  Style 5 loss: 17328.406334	
+  Total loss: 87122260.662174	
+Iteration 350 / 1000	
+  Content 1 loss: 84057862.500000	
+  Style 1 loss: 8976.520300	
+  Style 2 loss: 330769.157410	
+  Style 3 loss: 348816.650391	
+  Style 4 loss: 2674544.860840	
+  Style 5 loss: 16460.745335	
+  Total loss: 87437430.434275	
+Iteration 400 / 1000	
+  Content 1 loss: 85030443.750000	
+  Style 1 loss: 7173.758268	
+  Style 2 loss: 269635.437012	
+  Style 3 loss: 276554.672241	
+  Style 4 loss: 2286311.645508	
+  Style 5 loss: 15758.600235	
+  Total loss: 87885877.863264	
+Iteration 450 / 1000	
+  Content 1 loss: 85951518.750000	
+  Style 1 loss: 5873.246312	
+  Style 2 loss: 222358.863831	
+  Style 3 loss: 220377.891541	
+  Style 4 loss: 1987834.899902	
+  Style 5 loss: 15113.275051	
+  Total loss: 88403076.926637	
+Iteration 500 / 1000	
+  Content 1 loss: 86790825.000000	
+  Style 1 loss: 4798.485160	
+  Style 2 loss: 184840.415955	
+  Style 3 loss: 180791.999817	
+  Style 4 loss: 1757005.737305	
+  Style 5 loss: 14674.508572	
+  Total loss: 88932936.146808	
+Iteration 550 / 1000	
+  Content 1 loss: 87449556.250000	
+  Style 1 loss: 3868.223190	
+  Style 2 loss: 154830.322266	
+  Style 3 loss: 152472.072601	
+  Style 4 loss: 1582885.803223	
+  Style 5 loss: 14172.989845	
+  Total loss: 89357785.661125	
+Iteration 600 / 1000	
+  Content 1 loss: 87976293.750000	
+  Style 1 loss: 3130.366087	
+  Style 2 loss: 131791.625977	
+  Style 3 loss: 130997.451782	
+  Style 4 loss: 1455853.820801	
+  Style 5 loss: 13702.363014	
+  Total loss: 89711769.377661	
+Iteration 650 / 1000	
+  Content 1 loss: 88451600.000000	
+  Style 1 loss: 2562.730730	
+  Style 2 loss: 114383.388519	
+  Style 3 loss: 115800.167084	
+  Style 4 loss: 1348987.701416	
+  Style 5 loss: 13366.282940	
+  Total loss: 90046700.270689	
+Iteration 700 / 1000	
+  Content 1 loss: 88878137.500000	
+  Style 1 loss: 2149.829149	
+  Style 2 loss: 101456.611633	
+  Style 3 loss: 103724.887848	
+  Style 4 loss: 1264374.572754	
+  Style 5 loss: 13096.581459	
+  Total loss: 90362939.982843	
+Iteration 750 / 1000	
+  Content 1 loss: 89288456.250000	
+  Style 1 loss: 1847.582459	
+  Style 2 loss: 90204.133987	
+  Style 3 loss: 93859.027863	
+  Style 4 loss: 1194814.361572	
+  Style 5 loss: 12843.614101	
+  Total loss: 90682024.969983	
+Iteration 800 / 1000	
+  Content 1 loss: 89650718.750000	
+  Style 1 loss: 1644.618988	
+  Style 2 loss: 80807.378769	
+  Style 3 loss: 84901.708603	
+  Style 4 loss: 1139108.459473	
+  Style 5 loss: 12609.479427	
+  Total loss: 90969790.395260	
+Iteration 850 / 1000	
+  Content 1 loss: 89942675.000000	
+  Style 1 loss: 1516.887903	
+  Style 2 loss: 73648.956299	
+  Style 3 loss: 78106.246948	
+  Style 4 loss: 1091786.132812	
+  Style 5 loss: 12412.244797	
+  Total loss: 91200145.468760	
+Iteration 900 / 1000	
+  Content 1 loss: 90208500.000000	
+  Style 1 loss: 1427.666187	
+  Style 2 loss: 68059.490204	
+  Style 3 loss: 72484.989166	
+  Style 4 loss: 1051079.681396	
+  Style 5 loss: 12246.634483	
+  Total loss: 91413798.461437	
+Iteration 950 / 1000	
+  Content 1 loss: 90403418.750000	
+  Style 1 loss: 1366.186559	
+  Style 2 loss: 64359.014511	
+  Style 3 loss: 67786.697388	
+  Style 4 loss: 1014944.366455	
+  Style 5 loss: 12114.207745	
+  Total loss: 91563989.222658	
+Iteration 1000 / 1000	
+  Content 1 loss: 90580781.250000	
+  Style 1 loss: 1309.626192	
+  Style 2 loss: 61555.143356	
+  Style 3 loss: 64131.689072	
+  Style 4 loss: 983575.836182	
+  Style 5 loss: 11980.663061	
+  Total loss: 91703334.207863	
+<optim.lbfgs> 	reached max number of iterations	
+
+real	14m52.330s
+user	0m0.044s
+sys	0m0.008s
+
